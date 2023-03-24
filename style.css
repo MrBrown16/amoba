@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+#field{
+    margin: 0 auto;
+    margin-top: 150px;
+    /* width: 900px;
+    max-width: 900px;
+    height: 900px; */
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.cell{
+    display: flex;
+    border: 1px solid black;
+    aspect-ratio: 1;
+    max-width: 50px;
+    min-width: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cell p{
+    display: block;
+
+}
